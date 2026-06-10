@@ -36,7 +36,7 @@ function Footer() {
           <div className="footer-links">
             <h4>연락처</h4>
             <ul>
-              <li><a href="mailto:contact@h-mtech.com">contact@h-mtech.com</a></li>
+              <li><a href="mailto:moon@h-mtech.com">moon@h-mtech.com</a></li>
               <li><a href="https://h-mtech.com">h-mtech.com</a></li>
             </ul>
           </div>
