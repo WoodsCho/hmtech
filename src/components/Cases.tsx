@@ -24,8 +24,7 @@ function Cases() {
               </p>
               <div className="case-stat">
                 <div className="case-stat-item">
-                  <div className="case-stat-value">12억</div>
-                  <div className="case-stat-label">프로젝트 규모</div>
+                 
                 </div>
                 <div className="case-stat-item">
                   <div className="case-stat-value">2025.08</div>
@@ -46,12 +45,11 @@ function Cases() {
               </p>
               <div className="case-stat">
                 <div className="case-stat-item">
-                  <div className="case-stat-value">120억</div>
-                  <div className="case-stat-label">예상 규모</div>
+            
                 </div>
                 <div className="case-stat-item">
-                  <div className="case-stat-value">2025.11</div>
-                  <div className="case-stat-label">예정</div>
+                  <div className="case-stat-value">2025.12</div>
+                  <div className="case-stat-label">완료</div>
                 </div>
               </div>
             </div>
@@ -68,12 +66,11 @@ function Cases() {
               </p>
               <div className="case-stat">
                 <div className="case-stat-item">
-                  <div className="case-stat-value">180억</div>
-                  <div className="case-stat-label">예상 규모</div>
+ 
                 </div>
                 <div className="case-stat-item">
-                  <div className="case-stat-value">2026</div>
-                  <div className="case-stat-label">예정</div>
+                  <div className="case-stat-value">2026.01~</div>
+                  <div className="case-stat-label">진행중</div>
                 </div>
               </div>
             </div>
