@@ -9,7 +9,7 @@ function CTA() {
             고객님의 비즈니스를 혁신하겠습니다.
           </p>
           <div className="cta-buttons">
-            <a href="mailto:contact@h-mtech.com" className="btn btn-primary">
+            <a href="mailto:moon@h-mtech.com" className="btn btn-primary">
               상담 신청하기 →
             </a>
             <a href="https://h-mtech.com" className="btn btn-outline" target="_blank" rel="noopener noreferrer">

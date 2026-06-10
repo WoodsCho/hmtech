@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   z-index: 1000;
-  padding: 20px 0;
+  padding: 16px 0;
   transition: all 0.3s ease;
   background: transparent;
 }
@@ -13,7 +13,7 @@
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
   box-shadow: 0 1px 20px rgba(0, 0, 0, 0.08);
-  padding: 12px 0;
+  padding: 10px 0;
 }
 
 .container {
@@ -31,7 +31,7 @@
 }
 
 .navLogoImg {
-  height: 64px;
+  height: 58px;
   width: auto;
   transition: all 0.3s ease;
 }
@@ -122,6 +122,22 @@
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    padding: 12px 0;
+  }
+  
+  .scrolled {
+    padding: 8px 0;
+  }
+  
+  .navLogoImg {
+    height: 50px;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
   .navLinks {
     display: none !important;
   }
