@@ -13,7 +13,6 @@ function Services() {
         </div>
         <div className="services-grid">
           <div className="service-card fade-in">
-            <div className="service-icon">🌊</div>
             <h3>EdgeWave 통합 데이터레이크</h3>
             <p>
               다양한 데이터 소스를 단일 플랫폼에서 통합 관리하고,
@@ -28,7 +27,6 @@ function Services() {
             </ul>
           </div>
           <div className="service-card fade-in">
-            <div className="service-icon">🤖</div>
             <h3>피지컬AI 스마트팩토리</h3>
             <p>
               제조 현장의 물리적 데이터와 AI를 결합하여

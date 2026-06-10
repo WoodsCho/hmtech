@@ -15,6 +15,7 @@ function About() {
           <div className="about-image fade-in">
             <div className="about-image-main">
               <div className="about-image-content">
+                <img src="/image1.png" alt="EdgeWave" className="about-image1" />
                 <div className="about-logo-text">
                   <span className="about-logo-edge">EdgeWave</span>
                   <span className="about-logo-sub">통합 데이터레이크</span>
