@@ -18,7 +18,7 @@ function Hero() {
             </h1>
             <p className="hero-subtitle">
               HMTech는 제조업의 데이터를 통합 관리하고, 피지컬AI로 스마트팩토리를 실현합니다.
-              LX세미콘, 두산전자, 현대자동차 등 대형 제조업체의 데이터를 기반으로
+              L사, D사, H사 등 대형 제조업체의 데이터를 기반으로
               차세대 데이터 인프라를 구축합니다.
             </p>
             <div className="hero-buttons">
