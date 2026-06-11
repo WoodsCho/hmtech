@@ -25,7 +25,6 @@ function Customers() {
                 <span className="customer-initial">{customer.name}</span>
               </div>
               <div className="customer-info">
-                <h4>{customer.name}</h4>
                 <span className="customer-industry">{customer.industry}</span>
                 <p>{customer.description}</p>
               </div>
