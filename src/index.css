@@ -1105,36 +1105,163 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* Partners Section */
-.partners-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 48px;
-  margin-top: 60px;
+/* PoweredBy Section */
+.poweredby {
+  background: var(--off-white);
+  overflow: hidden;
+  padding: 80px 0;
 }
 
-.partner-logo {
-  width: 140px;
-  height: 80px;
-  background: var(--white);
-  border-radius: var(--radius-md);
+.poweredby-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.poweredby-track {
+  display: flex;
+  gap: 60px;
+  animation: scrollPoweredBy 30s linear infinite;
+  width: fit-content;
+}
+
+.poweredby-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scrollPoweredBy {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.poweredby-item {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 18px;
-  font-weight: 700;
-  color: var(--gray-400);
+  width: 240px;
+  height: 120px;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 32px 40px;
   border: 1px solid var(--gray-200);
   transition: var(--transition-base);
 }
 
-.partner-logo:hover {
+.poweredby-item:hover {
   border-color: var(--accent-green);
-  color: var(--accent-green);
   box-shadow: var(--shadow-lg);
-  transform: translateY(-4px);
+  transform: translateY(-2px);
+}
+
+.poweredby-logo {
+  max-width: 180px;
+  max-height: 72px;
+  object-fit: contain;
+  filter: grayscale(100%) brightness(0.7) contrast(0.5);
+  opacity: 0.6;
+  transition: var(--transition-base);
+}
+
+.poweredby-item:hover .poweredby-logo {
+  filter: grayscale(0%) brightness(1) contrast(1);
+  opacity: 1;
+}
+
+/* Customers Section */
+.customers {
+  background: var(--white);
+}
+
+.customers-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+
+.customer-card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 32px;
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid var(--gray-200);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.customer-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-accent);
+  transform: scaleX(0);
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: left;
+}
+
+.customer-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 184, 122, 0.2);
+}
+
+.customer-card:hover::before {
+  transform: scaleX(1);
+}
+
+.customer-logo {
+  width: 72px;
+  height: 72px;
+  background: linear-gradient(135deg, rgba(45, 45, 45, 0.06), rgba(0, 184, 122, 0.08));
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  border: 1px solid rgba(0, 184, 122, 0.1);
+}
+
+.customer-initial {
+  font-size: 22px;
+  font-weight: 800;
+  color: var(--accent-green);
+  letter-spacing: -0.5px;
+}
+
+.customer-info h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--gray-900);
+  margin-bottom: 8px;
+  letter-spacing: -0.3px;
+}
+
+.customer-industry {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--accent-green);
+  background: rgba(0, 184, 122, 0.08);
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  letter-spacing: 0.3px;
+}
+
+.customer-info p {
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.7;
 }
 
 /* CTA Section */
@@ -1602,5 +1729,19 @@ body {
   }
   .case-stat-value {
     font-size: 20px;
+  }
+  .customers-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .customer-card {
+    padding: 24px;
+  }
+  .customer-logo {
+    width: 60px;
+    height: 60px;
+  }
+  .customer-initial {
+    font-size: 18px;
   }
 }

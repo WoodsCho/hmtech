@@ -41,7 +41,7 @@ function About() {
               미래를 <span className="highlight">혁신</span>합니다
             </h3>
             <p className="about-desc-main">
-              HMTech는 LX세미콘, 현대자동차 등 대형 제조업체의 스토리지 및 시뮬레이션 시스템 구축 과정에서
+              HMTech는 L사, H사 등 대형 제조업체의 스토리지 및 시뮬레이션 시스템 구축 과정에서
               발생한 방대한 데이터 통합·관리 문제를 직접 목격하고, 이 문제를 해결하기 위해 설립되었습니다.
             </p>
             <p className="about-desc-sub">

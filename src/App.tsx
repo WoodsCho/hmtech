@@ -4,6 +4,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
 import Cases from './components/Cases';
+import Customers from './components/Customers';
+import PoweredBy from './components/PoweredBy';
 import Timeline from './components/Timeline';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
@@ -40,6 +42,8 @@ function App() {
       <About />
       <Services />
       <Cases />
+      <Customers />
+      <PoweredBy />
       <Timeline />
       <CTA />
       <Footer />

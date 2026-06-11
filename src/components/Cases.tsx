@@ -14,10 +14,10 @@ function Cases() {
         <div className="cases-grid">
           <div className="case-card fade-in">
             <div className="case-header">
-              <div className="case-logo">DOOSAN</div>
+              <div className="case-logo">D사</div>
             </div>
             <div className="case-body">
-              <h4>두산전자 증평 7호기 고도화 프로젝트</h4>
+              <h4>D사 증평 7호기 고도화 프로젝트</h4>
               <p>
                 EdgeWave 플랫폼을 기반으로 이물질관리시스템 공장구축,
                 생산계획자동화, 예지정비 및 IoT EDGE인프라 구축
@@ -35,13 +35,13 @@ function Cases() {
           </div>
           <div className="case-card fade-in">
             <div className="case-header">
-              <div className="case-logo">DOOSAN</div>
+              <div className="case-logo">D사</div>
             </div>
             <div className="case-body">
-              <h4>두산전자 증평 9호기 프로젝트</h4>
+              <h4>D사 증평 9호기 프로젝트</h4>
               <p>
                 2025년 11월 이물질관리시스템 공장구축 / 생산계획자동화 /
-                예지정비 미치 IoT EDGE인프라 2차 프로젝트 예정
+                예지정비 및 IoT EDGE인프라 2차 프로젝트 예정
               </p>
               <div className="case-stat">
                 <div className="case-stat-item">
@@ -56,12 +56,12 @@ function Cases() {
           </div>
           <div className="case-card fade-in">
             <div className="case-header">
-              <div className="case-logo">DOOSAN</div>
+              <div className="case-logo">D사</div>
             </div>
             <div className="case-body">
-              <h4>두산전자 10호 ~ 24호기 추가 프로젝트</h4>
+              <h4>D사 10호 ~ 24호기 추가 프로젝트</h4>
               <p>
-                2026년 두산전자 10호 ~ 24호기 추가 프로젝트 예정.
+                2026년 D사 10호 ~ 24호기 추가 프로젝트 예정.
                 EdgeWave 기반 확장으로 생산성 극대화
               </p>
               <div className="case-stat">
@@ -82,8 +82,7 @@ function Cases() {
             <div className="case-body">
               <h4>EdgeWave 국내시장 확장 계획</h4>
               <p>
-                두산전자 프로젝트 성과를 기반으로 서울반도체, 삼성 SDS,
-                SK하이닉스등 확장하여 2025~2026 국내매출 30억원 목표
+                D사 프로젝트 성과를 기반으로 S사, S사, S사등 확장하여 2025~2026 국내매출 30억원 목표
               </p>
               <div className="case-stat">
                 <div className="case-stat-item">
