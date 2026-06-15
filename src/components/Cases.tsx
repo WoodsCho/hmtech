@@ -75,6 +75,26 @@ function Cases() {
               </div>
             </div>
           </div>
+          <div className="case-card fade-in">
+            <div className="case-header">
+              <div className="case-logo">A사</div>
+            </div>
+            <div className="case-body">
+              <h4>A사 EDA 설계 및 시뮬레이션 프로젝트</h4>
+              <p>
+                반도체 EDA 설계 및 시뮬레이션을 위한 서버 및 GPU서버 구축 및 유지보수
+                EdgeWave 플랫폼을 통한 고성능 컴퓨팅 인프라 제공
+              </p>
+              <div className="case-stat">
+                <div className="case-stat-item">
+                </div>
+                <div className="case-stat-item">
+                  <div className="case-stat-value">진행중</div>
+                  <div className="case-stat-label">사업중</div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
