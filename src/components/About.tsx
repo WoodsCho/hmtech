@@ -30,8 +30,8 @@ function About() {
                 </svg>
               </div>
               <div className="card-text">
-                <h4>30억</h4>
-                <p>목표 매출</p>
+                <h4>4PB+</h4>
+                <p>납품 경험</p>
               </div>
             </div>
           </div>

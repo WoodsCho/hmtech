@@ -75,27 +75,6 @@ function Cases() {
               </div>
             </div>
           </div>
-          <div className="case-card fade-in">
-            <div className="case-header" style={{ background: 'linear-gradient(135deg, var(--accent-green) 0%, var(--accent-green-light) 100%)' }}>
-              <div className="case-logo">EdgeWave</div>
-            </div>
-            <div className="case-body">
-              <h4>EdgeWave 국내시장 확장 계획</h4>
-              <p>
-                D사 프로젝트 성과를 기반으로 S사, S사, S사등 확장하여 2025~2026 국내매출 30억원 목표
-              </p>
-              <div className="case-stat">
-                <div className="case-stat-item">
-                  <div className="case-stat-value">30억</div>
-                  <div className="case-stat-label">목표 매출</div>
-                </div>
-                <div className="case-stat-item">
-                  <div className="case-stat-value">8,000+</div>
-                  <div className="case-stat-label">타겟 기업</div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -35,10 +35,6 @@ function Hero() {
                 <div className="stat-label">납품 경험</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">30억</div>
-                <div className="stat-label">목표 매출</div>
-              </div>
-              <div className="stat-item">
                 <div className="stat-number">8,000+</div>
                 <div className="stat-label">타겟 기업</div>
               </div>

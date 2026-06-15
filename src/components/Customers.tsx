@@ -2,7 +2,7 @@ function Customers() {
   const customers = [
     { name: 'D사', industry: '전자제품 제조', description: '데이터레이크부터 피지컬AI까지 통합 솔루션 / 증평 공장 7~24호기 프로젝트' },
     { name: 'L사', industry: '반도체 제조', description: 'VDI 1600명 구축 및 SM운영 / AI 및 HPC 데이터플랫폼 VAST Data 4PB 납품 및 유지보수 / EDA 설계 및 시뮬레이션 납품 및 유지보수' },
-    { name: 'H사', industry: '자동차 제조', description: '스토리지 및 시뮬레이션 시스템' },
+    { name: 'S사', industry: '자동차 제조', description: 'AI데이터플랫폼 VAST 표준화' },
     { name: 'A사', industry: '반도체 제조', description: 'EDA 설계 및 시뮬레이션 서버 및 GPU서버 납품 및 유지보수' }
   ];
 
