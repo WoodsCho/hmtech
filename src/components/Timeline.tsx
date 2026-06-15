@@ -23,7 +23,12 @@ function Timeline() {
     {
       year: '2025',
       title: 'D사 프로젝트 성공 완료 및 EdgeWave 확장',
-      content: '<strong>• D사 증평 7호기 고도화 프로젝트 완료</strong><br />• 9호기 프로젝트 진행 중<br />• 국내 스마트팩토리 도입 기업 30,000개 타겟'
+      content: '<strong>• D사 증평 7호기 고도화 프로젝트 완료</strong><br />• 9호기 프로젝트 완료<br />• 국내 스마트팩토리 도입 기업 30,000개 타겟'
+    },
+    {
+      year: '2026',
+      title: '두산전자 Lot 데이타 통합플랫폼 구축 프로젝트 수주',
+      content: '<strong>• 3월 Amkor Technology Korea Ansys 설계서버 납품</strong><br />• 3월 두산디지털이노베이션 Lot 데이타 통합 플랫폼 구축 프로젝트 수주<br />• 4월 Amkor Technology Korea 설계 시뮬레이션서버 용량 증설<br />• 5월 SAMSUNG SDS SCP AI 초고성능 스토리지 POC 완료'
     }
   ];
 
