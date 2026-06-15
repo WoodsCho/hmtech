@@ -27,7 +27,8 @@ function PoweredBy() {
     { name: 'HP', src: '/hp.svg' },
     { name: 'NetApp', src: '/NetApp.png' },
     { name: 'Citrix', src: '/Citrix.png' },
-    { name: 'Arcserve', src: '/arcserve.webp' }
+    { name: 'Arcserve', src: '/arcserve.webp' },
+    { name: 'Samsung SDS', src: '/Samsung_SDS.png' }
   ];
 
   return (
@@ -43,7 +44,7 @@ function PoweredBy() {
           <div className="poweredby-track">
             {partners.map((partner, index) => (
               <div className="poweredby-item" key={index}>
-                <img src={partner.src} alt={partner.name} className="poweredby-logo" />
+                <img src={partner.src} alt={partner.name} className={(partner.name === 'Veeam' || partner.name === 'Arcserve') ? 'poweredby-logo enlarged' : 'poweredby-logo'} />
               </div>
             ))}
           </div>

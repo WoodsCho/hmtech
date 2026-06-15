@@ -1169,6 +1169,12 @@ body {
   transition: var(--transition-base);
 }
 
+.poweredby-logo.enlarged {
+  max-width: 270px;
+  max-height: 108px;
+  transform: scale(1.5);
+}
+
 .poweredby-item:hover .poweredby-logo {
   filter: grayscale(0%) brightness(1) contrast(1);
   opacity: 1;
